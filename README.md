@@ -47,6 +47,7 @@ Para ejecutar este programa, estando en el directorio mismo de este proyecto, ej
 ```
 python checksum.py
 ```
+Posteriormente, ingresa la linea hexadecimal a la cual le deseas calcular el checksum sin poner ':'
 
 ## Pruebas
 Para la prueba de este procesador, se pueden extraer instrucciones compiladas de un código en C++, o el lenguaje de preferencia usando: [https://godbolt.org]  
