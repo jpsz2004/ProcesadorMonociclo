@@ -4,7 +4,7 @@ Este proyecto contiene el circuito combinacional de un procesador monociclo para
 
 ## Salvedades
 > * La aplicación usada para realizar los componentes fue "Digital" Tomado de [https://github.com/hneemann/Digital.git]  
-> * "Digital" necesita que la memoria esté precargada. Es necesario que al intentar simular el circuito, sea necesario precargar la memoria según la dirección en donde se guardó todo el proyecto. El archivo se llama:
+> * "Digital" necesita que la memoria esté precargada. Es necesario que al intentar simular el circuito, se precargue la memoria según la dirección en donde se guardó todo el proyecto. El archivo se llama:
 ```
 insts.hex
 ```  
