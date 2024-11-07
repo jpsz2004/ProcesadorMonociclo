@@ -18,5 +18,16 @@ Para la construcción de este procesador y su correcto funcionamiento es fundame
 ## Formato INTEL HEX
 ![](https://www.flx.cat/media/2010-11-17/featured.jpg)
 
+>[!NOTE]
+> El formato debe seguirse al construir el archivo .hex e indica lo siguiente:
+> * Amarillo: Son los dos puntos que dan inicio.
+> * Verde: Estos dos digitos indican de cuantos bytes es la instrucción.
+> * Morado: Son cuatro dígitos que indican la dirección de memoria donde se va a cargar la instrucción.
+> * Rojo: El tipo de guardado.
+> * Azul: Dependiendo de la cantidad de bytes establecidos, se escribe la instrucción.
+> * Gris: Es el checksum.
+
+
+
 
 
