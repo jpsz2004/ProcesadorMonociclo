@@ -16,7 +16,7 @@ Para la construcción de este procesador y su correcto funcionamiento es fundame
 > Se debe precargar un archivo con extensión .hex que debe seguir el formato intel hex. Este formato es solicitado por "Digital".
 
 ## Formato INTEL HEX
-![](https://www.flx.cat/media/2010-11-17/featured.jpg){width='100px'}
+![](https://www.flx.cat/media/2010-11-17/featured.jpg)
 
 
 
