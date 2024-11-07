@@ -1,13 +1,17 @@
 # Procesador Monociclo
-Este proyecto contiene el circuito combinacional de un procesador monociclo y sus componentes en la aplicación para simulación "Digital". 
+Este proyecto contiene el circuito combinacional de un procesador monociclo para arquitectura RISC-V y sus componentes en la aplicación para simulación "Digital". 
 
 
 ## Salvedades
 > * La aplicación usada para realizar los componentes fue "Digital" Tomado de [https://github.com/hneemann/Digital.git]  
-> * "Digital" necesita que la memoria esté precargada. Es necesario que al intentar simular el circuito, sea necesario precargar la memoria según la dirección en donde se guardó todo el proyecto. El archivo se llama 'insts.hex'  
+> * "Digital" necesita que la memoria esté precargada. Es necesario que al intentar simular el circuito, sea necesario precargar la memoria según la dirección en donde se guardó todo el proyecto. El archivo se llama:
+```
+insts.hex
+```  
 > * Sin precargar la memoria, el proyecto mostrará todo en cero ya que la memoria del programa no tiene datos almacenados.  
 > * Las instrucciones de corrimiento sll, srl, sra, slt, sltu aún no se ejectuan como una operación original en la ALU. En su defecto, para esta versión, los displays muestran el nombre de la instrucción.
 > * Si una de las instruccions no sigue el formato adecuado o tiene errores en su formato, "Digital" mostrará error.
+> * Este procesador no procesa pseudo instrucciones, sin embargo estas se pueden traducir fácilmente a instrucciones canónicas del RISC-V
 
 # APÉNDICES
 
@@ -45,7 +49,25 @@ python checksum.py
 ```
 
 ## Pruebas
-Para la prueba de este procesador, se pueden extraer instrucciones compiladas de un código en C++, o el lenguaje de preferencia usando: [https://godbolt.org]
+Para la prueba de este procesador, se pueden extraer instrucciones compiladas de un código en C++, o el lenguaje de preferencia usando: [https://godbolt.org]  
+La memoria está cargada con las instrucciones generadas para un código simple en C++:
 
+```C++
+#include <stdio.h>
+
+int suma(){
+    int x = 2;
+    int y = 4;
+    return x + y;
+}
+```
+
+Las instrucciones que genera ete código y su traducción a hexadecimal se encuentran en:
+```
+instruccionesTest.txt
+```
+
+## Comentario sobre la Unidad de Control
+Para construir el circuito de la unidad de control y direccionar correctamente las señales según el tipo de instrucción y operación, se construyó una hoja de cálculo que permite tener control visual de cómo trabaja la unidad de control. (Adjunto al repositorio).
 
 
