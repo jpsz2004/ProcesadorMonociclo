@@ -1,4 +1,4 @@
-# Procesador Monociclo
+# PROCESADOR MONOCICLO
 Este proyecto contiene el circuito combinacional de un procesador monociclo para arquitectura RISC-V y sus componentes en la aplicación para simulación "Digital". 
 
 
@@ -70,5 +70,12 @@ instruccionesTest.txt
 
 ## Comentario sobre la Unidad de Control
 Para construir el circuito de la unidad de control y direccionar correctamente las señales según el tipo de instrucción y operación, se construyó una hoja de cálculo que permite tener control visual de cómo trabaja la unidad de control. (Adjunto al repositorio).
+
+# COMENTARIO FINAL
+Este proyectó se sustentó el día 06 del mes 11 del año 2024 para la materia "Arquitectura de Computadores" de la carrera de Ingeniería de Sistemas y Computación de la Universidad Tecnológica de Pereira.
+
+Docente: Juan Manuel Velásquez Isaza
+
+Presentado por: Juan Pablo Sánchez Zapata y Juan Esteban García Pulgarín
 
 
