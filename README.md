@@ -63,7 +63,7 @@ int suma(){
 }
 ```
 
-Las instrucciones que genera ete código y su traducción a hexadecimal se encuentran en:
+Las instrucciones que genera este código y su traducción a hexadecimal se encuentran en:
 ```
 instruccionesTest.txt
 ```
