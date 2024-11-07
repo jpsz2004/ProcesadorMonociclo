@@ -10,6 +10,9 @@ Este proyecto contiene el circuito combinacional de un procesador monociclo y su
 
 ## APÉNDICES
 
+Para la construcción de este procesador y su correcto funcionamiento es fundamental comprender la carga de la memoria del programa en "Digital". 
 
+<[!NOTE]
+Se debe precargar un archivo con extensión .hex que debe seguir el formato intel hex. Este formato es solicitado por "Digital".
 
 
